@@ -1,0 +1,197 @@
+:root{
+	--height:650px;
+}
+
+#left{
+	border: 1px solid black;
+	border-radius: 10px;
+	position: relative;
+	left: 160px;
+	height: 220px;
+	width: 80%;
+	margin: 20px;
+
+}
+
+#main{
+	border: 1px solid black;
+	border-radius: 20px;
+	position: relative;
+	/*height:calc(var(--height) + 100px);*/
+	top: 00px;
+	left: 160px;
+	width: 80%;
+	margin: 20px;
+
+}
+
+#time{
+
+	height: var(--height);
+	margin: 30px;
+}
+
+form{
+	margin: 10px;
+	padding: 10px;
+}
+
+.chooseTime{
+	border: 1px solid skyblue;
+	border-radius: 10px;
+	margin: 5px;
+	width: 1140px;
+	position: relative;
+	top: 50px;
+	display: block;
+	height: 100px;
+}
+
+#page{
+	width: 1130px;
+	position: absolute;
+
+	border-radius:20px ;
+	margin: 10px;
+	top:5px;
+	left: 30px;
+	height: 50px;
+}
+
+.layui-form-item{
+	position: relative;
+	display: inline-block;
+	left: 20px;
+}
+
+.layui-input-block select{
+	width: 120px;
+	top: 5px;
+	position: relative;
+	height: 30px;
+}
+
+.layui-form-label{
+	width: 85px;
+	position: absolute;
+	left: -10px;
+}
+
+.layui-input-block input{
+	width: inherit;
+	height: 25px;
+	position: relative;
+	top: 5px;
+}
+
+.chooseTime:hover{
+	border: 3px solid green;
+}
+
+
+
+.layui-input-inline{
+	position: relative;
+	top: 20px;
+	left: 30px;
+}
+
+#previous_date{
+
+	position: relative;
+
+	background-color: white;
+	border: 1px solid blue;
+	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+}
+
+#next_date{
+	position: relative;
+	left: 830px;
+	margin-right: 100px;
+	background-color: white;
+	border: 1px solid blue;
+	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+}
+
+#datetime{
+	position: absolute;
+	border: 1px solid black;
+	left: 320px;
+	top: 0px;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	height: 30px;
+	width: 500px;
+}
+
+#subm{
+	position: relative;
+	top: 25px;
+	left: 30px;
+}
+
+.place{
+
+	height: 20px;
+	margin:15px;
+	position: relative;
+	left: 400px;
+	display: block;
+	text-align: center;
+	padding: 15px;
+	width: 170px;
+}
+
+.place *{
+	padding: 10px;
+	font-size: 20px;
+	display: inline;
+}
+
+.time{
+
+	height: 20px;
+	margin:15px;
+	position: relative;
+	left: 80px;
+	top: -60px;
+	display: block;
+	text-align: center;
+	padding: 15px;
+	width: 190px;
+}
+
+.time *{
+	padding: 10px;
+	font-size: 20px;
+	display: inline;
+}
+
+.sub{
+	position: relative;
+	left: 1000px;
+	top: -190px;
+}
+
+.flightno{
+	position: relative;
+	left: 750px;
+	top: -135px;
+}
+
+.timechange{
+	display: inline;
+}
+
+.price{
+	position: relative;
+	top: -80px;
+	font-size: 16px;
+	left: 500px;
+}

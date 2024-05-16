@@ -1,0 +1,59 @@
+.layui-this{
+	font-size: 18px;
+
+}
+
+.layui-layout-right{
+	right: 15px;
+}
+
+#ch{
+	border: 5px solid darkblue;
+	position: relative;
+	padding: 20px;
+	width: 600px;
+	margin: 100px auto ;
+	border-radius: 20px;
+
+}
+
+#start{
+	position: relative;
+	left: -50px;
+
+	top:30px;
+}
+
+#icon{
+	position: absolute;
+	left: 300px;
+	top: 50px;
+	font-size: 30px;
+	width: 20px;
+}
+
+#end{
+	position: relative;
+	left: 220px;
+	top: -23px;
+
+}
+
+#sub{
+	position: relative;
+	left: 100px;
+	margin: 10px auto;
+}
+
+.layui-input-block input{
+	width: 200px;
+
+}
+
+
+#test1{
+	position: relative;
+	left: 70px;
+	height: 20px;
+	top: -10px;
+}

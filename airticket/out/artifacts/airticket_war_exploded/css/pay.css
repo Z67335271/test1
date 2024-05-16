@@ -1,0 +1,71 @@
+:root{
+	--height:600px;
+}
+
+#body{
+	border: 1px solid black;
+	height: var(--height);
+	width: 60%;
+	position: relative;
+	top: 50px;
+	border-radius: 10px;
+	margin: 20px auto;
+
+}
+
+#tip{
+	border:1px solid aliceblue ;
+	border-radius: 20px;
+	margin: 15px;
+}
+
+#tip p{
+	font-size: 18px;
+	margin: 10px;
+}
+
+.btn button{
+	color: white;
+	border-radius: 10px;
+}
+
+.btn a{
+	color:white;
+}
+	
+.layui-btn {
+	background-color: #87CEEB;
+	
+}
+	
+.btn{
+	border:1px solid aliceblue ;
+	position: absolute;
+	top: calc(var(--height) - 70px);
+	left: 60px;
+	border-radius: 20px;
+	margin: 15px auto;
+}
+
+#ticket{
+	border:1px solid aliceblue ;
+	border-radius: 20px;
+	margin: 15px;
+}
+
+.ticket_ding{
+	display: block;
+	margin: 15px auto;
+	height: 70px;
+	border-radius: 10px;
+	border: 1px solid #00F7DE ;
+	
+}
+
+#sum{
+	border:1px solid blue ;
+	border-radius: 20px;
+	margin: 15px;
+	height: 70px;
+	
+}

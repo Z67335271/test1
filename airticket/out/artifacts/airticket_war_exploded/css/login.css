@@ -1,0 +1,33 @@
+#login{
+	border: 2px solid greenyellow;
+	background-color: whitesmoke;
+	border-radius:25px ;
+	padding: 50px;
+	width: 400px;
+	height: 200px;
+	position: relative;
+	top:100px;
+	left: 35%;
+}
+
+body{
+
+}
+#other{
+	position: relative;
+	left: 290px;
+	top: -13px;
+}
+#other a{
+	color: white;
+}
+
+.layui-input-block{
+	position: relative;
+	top: 40px;
+}
+
+
+.layui-input-inline input{
+	border-radius: 10px;
+}
